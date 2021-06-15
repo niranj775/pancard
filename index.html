@@ -533,16 +533,116 @@
                 </tr> 
                 <tr>
                     <td></td>
-                    <td colspan="2">
-                        <p>
-                            I/We have enclosed
-                        </p>
-                        <select name="" id="" style=" padding-left:50px; width: 94%;">
+                    <td colspan="2" style="font-weight: lighter;">
+                        <p>I/We have enclosed</p>
+                        <select name="" id="" style=" width: 94%;">
                             <option value="">--Please Select--</option>
                          </select> as proof
+                         of identity, <select name="" id="" style=" width: 74%;">
+                             <option value="">--Please Select--</option>
+                         </select> as proof of address,
+                         <select name="" id="" style=" width: 84%;">
+                            <option value="">--Please Select--</option> 
+                        </select> as proof of date of birth
+                        <p>and <select name="" id="" style="width: 17%">
+                            <option value="">--Please Select--</option>
+                        </select>as proof of PAN allotted</p>
                     </td>
-                </tr>   
+                </tr> 
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        Whether you wish to have? 
+                        <p style="padding-left: 20px; display: inline;">
+                            <input type="radio" name="pantype" id="" checked="Checked" >
+                            <label for="" style="font-weight: lighter; ">Physical PAN Card & e-PAN Card</label>
+                        </p>
+                        <p style="padding-left: 20px; display: inline;">
+                            <input type="radio" name="pantype" id="">
+                        <label for="" style="font-weight: lighter;">Only e-PAN Card</label> 
+                        <a href="" style="display: inline; color: black; font-style: italic; padding-left: 20px;">Fees Applicable</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        Other Details
+                    </td>
+                </tr> 
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        1. Depository Account Details
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                       DP ID: <input type="text" name="" id="" style="width: 9%;"> Client ID: <input type="text" name="" id="" style="width: 9%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        2. Payment Details
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" name="" id=""></td>
+                    <td colspan="2">Online payment</td>
+                </tr>
             </table>
+            <!--Below the table-->
+            <div style="font-weight: lighter;">
+                <div style="display: inline;">For Paperless PAN Application</div> 
+            <input type="radio" name="paperless" id=""> 
+            <label for="">Yes</label>
+            <input type="radio" name="paperless" id="">
+            <label for="">No</label>
+
+            <div>
+                <input type="radio" name="" id="" checked="Checked" > DSC 
+                <select name="" id="" style="width: 15%">
+                    <option value="">--Select--</option>
+                </select>
+                <a href="" style="padding-left: 20px; color: black; ">Guidelines for DSC user</a>
+            </div> 
+            
+            <div >
+                <div style="display: inline; padding-right: 500px;">Upload Photo </div>
+                <input type="file" name="" id="" style="padding-right: 50px;">
+                <div style="display: inline; ">Upload Signature </div>
+                <input type="file" name="" id="">
+            </div>
+
+            <div >
+                <div style="display: inline; padding-right: 470px;">Upload Document </div>
+                <input type="file" name="" id="" style="padding-right: 430px;">
+                OR
+            </div>
+            <button>
+                Fetch from Digilocker
+            </button>
+
+            <div>
+                <div style="display: inline; padding-right: 400px;">ALREADY UPLOADED PHOTO: </div> <input type="text" name="" id="">
+            </div>
+
+            <div>
+                <div style="display: inline; padding-right: 362px;">ALREADY UPLOADED SIGNATURE:</div> <input type="text" name="" id="">
+            </div>
+
+            <div>
+                <div style="display: inline; padding-right: 351px;">ALREADY UPLOADED DOCUMENTS:</div> <textarea name="" id="" cols="30" rows="3"></textarea>
+            </div>
+            
+            <div style="padding-left:50%;">
+                <button> Submit </button>
+            </div>
+            
+
+            </div>
         </div>
     </div>
 </body>
